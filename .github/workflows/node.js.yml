@@ -31,7 +31,7 @@ jobs:
     - run: npm test
     # - run: npm run deploy
     - run: dir
-    - dir: dist
+    - uses: dist
     - run: dir
     - run: git init
     - run: git add -A
