@@ -15,4 +15,4 @@ git commit -m 'deploy'
 
 git push -f git@github.com:viryl15/vue-tree-drag-and-drop.git master:gh-pages
 
-cd -
+# cd -
