@@ -32,9 +32,9 @@ jobs:
     # - run: npm run deploy
     - run: dir
     - dir: dist
-      - run: dir
-      - run: git init
-      - run: git add -A
-      - run: dir
-      - run: git commit -m 'deploy'
-      - run: git push -f git@github.com:viryl15/vue-tree-drag-and-drop.git master:gh-pages
+    - run: dir
+    - run: git init
+    - run: git add -A
+    - run: dir
+    - run: git commit -m 'deploy'
+    - run: git push -f git@github.com:viryl15/vue-tree-drag-and-drop.git master:gh-pages
