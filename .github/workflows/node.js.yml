@@ -26,6 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm ci
     - run: npm run build --if-present
     - run: npm test
     - run: cd dist
@@ -34,4 +35,3 @@ jobs:
     - run: git commit -m 'deploy'
     - run: git push -f git@github.com:viryl15/vue-tree-drag-and-drop.git master:gh-pages
     - run: cd -
-    - run: npm ci
