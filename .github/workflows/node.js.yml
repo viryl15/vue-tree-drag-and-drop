@@ -29,14 +29,14 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    # - run: npm run deploy
-    - run: ls
-    - run: cd dist
-    # - uses: vue-tree-drag-and-drop/dist
-    - run: ls
-    - run: git init
-    - run: git add -A
-    - run: ls
-    - run: git commit -m 'deploy'
-    - run: git push -f git@github.com:viryl15/vue-tree-drag-and-drop.git master:gh-pages
+    - run: npm run deploy
+    # - run: ls
+    # - run: cd dist
+    # # - uses: vue-tree-drag-and-drop/dist
+    # - run: ls
+    # - run: git init
+    # - run: git add -A
+    # - run: ls
+    # - run: git commit -m 'deploy'
+    # - run: git push -f git@github.com:viryl15/vue-tree-drag-and-drop.git master:gh-pages
     # - run: cd -
