@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/vue-tree-drag-and-drop/'
+    publicPath: './'
     // publicPath: process.env.NODE_ENV === 'production'
     //   ? '/vue-tree-drag-and-drop/'
     //   : '/'
